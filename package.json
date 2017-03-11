@@ -1,7 +1,7 @@
 {
   "name": "change-file-time",
   "version": "0.0.0",
-  "description": "Removes timestamps from files",
+  "description": "Removes or alters timestamps from files based on glob patterns",
   "main": "index.js",
   "author": "Kennedy Rose <kennedy@kennedyrose.com> (https://kennedyrose.com)",
   "license": "MIT",
@@ -11,6 +11,10 @@
   },
   "bin": {
     "cft": "./bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kennedyrose/change-file-time.git"
   },
   "dependencies": {
     "fs-extra": "^2.0.0",
