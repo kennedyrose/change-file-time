@@ -1,0 +1,20 @@
+{
+  "name": "change-file-time",
+  "version": "0.0.0",
+  "description": "Removes timestamps from files",
+  "main": "index.js",
+  "author": "Kennedy Rose <kennedy@kennedyrose.com> (https://kennedyrose.com)",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/test",
+    "checkindex": "node test/check"
+  },
+  "bin": {
+    "cft": "./bin.js"
+  },
+  "dependencies": {
+    "fs-extra": "^2.0.0",
+    "glob-all": "^3.1.0",
+    "meow": "^3.7.0"
+  }
+}
