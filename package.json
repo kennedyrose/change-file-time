@@ -1,6 +1,6 @@
 {
   "name": "change-file-time",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Removes or alters timestamps from files based on glob patterns",
   "main": "index.js",
   "author": "Kennedy Rose <kennedy@kennedyrose.com> (https://kennedyrose.com)",
