@@ -19,11 +19,11 @@ module.exports = (matchers, options, cb) => {
 	else if(!options) options = {}
 
 	// Default options
-	options = Object.assign(options, {
+	options = Object.assign({
 		atime: new Date(),
 		mtime: new Date(),
 		ctime: new Date()
-	})
+	}, options)
 	if(options.atime !== 'object') options.atime = new Date(options.atime)
 	if(options.mtime !== 'object') options.mtime = new Date(options.mtime)
 	if(options.ctime !== 'object') options.ctime = new Date(options.ctime)
